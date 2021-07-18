@@ -14,18 +14,18 @@ const routes = (handler) => [
   },
   {
     method: 'GET',
-    path: '/notes{id}',
+    path: '/notes/{id}',
     handler: handler.getNoteByIdHandler, // getNoteByIdHandler mengembalikan "satu" note.
   },
   {
     method: 'PUT',
-    path: '/notes{id}',
+    path: '/notes/{id}',
     handler: handler.putNoteByIdHandler, 
     // putNoteByIdHandler hanya menerima dan mengubah "satu" note.
   },
   {
     method: 'DELETE',
-    path: '/notes{id}',
+    path: '/notes/{id}',
     handler: handler.deleteNoteByIdHandler, // deleteNoteByIdhandler untuk menghapus satu note.
   },
 ];
