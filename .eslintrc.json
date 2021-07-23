@@ -11,6 +11,14 @@
         "ecmaVersion": 12
     },
     "rules": {
-        "no-console": "off"
+        "no-console": "off",
+        "no-underscore-dangle" : "off",
+        "linebreak-style" : "off",
+        "no-unused-vars" : "off",
+        "eol-last" : "off",
+        "no-case-declarations" :"off",
+        "camelcase": "off",
+        "max-len":"off" 
+
     }
 }

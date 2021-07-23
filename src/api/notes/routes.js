@@ -1,6 +1,3 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable no-trailing-spaces */
-/* eslint-disable linebreak-style */
 const routes = (handler) => [
   {
     method: 'POST',
@@ -20,8 +17,7 @@ const routes = (handler) => [
   {
     method: 'PUT',
     path: '/notes/{id}',
-    handler: handler.putNoteByIdHandler, 
-    // putNoteByIdHandler hanya menerima dan mengubah "satu" note.
+    handler: handler.putNoteByIdHandler, // putNoteByIdHandler hanya menerima dan mengubah "satu" note.
   },
   {
     method: 'DELETE',

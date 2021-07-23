@@ -1,7 +1,3 @@
-/* eslint-disable no-undef */
-/* eslint-disable linebreak-style */
-/* eslint-disable no-underscore-dangle */
-/* eslint-disable linebreak-style */
 const { nanoid } = require('nanoid');
 const InvariantError = require('../../exceptions/Invariant');
 const NotFoundError = require('../../exceptions/NotFoundError');
