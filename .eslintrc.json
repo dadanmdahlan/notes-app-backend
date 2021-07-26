@@ -18,7 +18,8 @@
         "eol-last" : "off",
         "no-case-declarations" :"off",
         "camelcase": "off",
-        "max-len":"off" 
+        "max-len":"off",
+        "no-undef":"off" 
 
     }
 }
