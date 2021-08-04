@@ -1,9 +1,5 @@
-/* eslint-disable comma-spacing */
-
-exports.shorthands = undefined;
-
 exports.up = (pgm) => {
-  pgm.createTable('notes',{
+  pgm.createTable('notes', {
     id: {
       type: 'VARCHAR(50)',
       primaryKey: true,
