@@ -10,7 +10,7 @@ class ExportsHandler {
   async postExportNotesHandler(request, h) {
     this._validator.validateExportNotesPayload(request.payload);
     const message = {
-      userId: request.auth.credentials.userId,
+      userId: request.auth.credentials.id,
       targetEmail: request.payload.targetEmail,
     };
     await this._service.sendMessage('export:notes', JSON.stringify(message));
